@@ -9,12 +9,21 @@ Furina is a custom programming language implemented from scratch in Python.
 - Abstract Syntax Tree (AST)
 
 ## Project Structure
-lexer.py        # Lexical analysis (tokenization)
-parser.py       # Syntax analysis (AST construction)
-ast_nodes.py    # AST node definitions
 
-docs/           # Language design documents
-examples/       # Sample Furina programs
+```
+furina-lang/
+│
+├── lexer.py        # Lexical analysis (tokenization)
+├── parser.py       # Syntax analysis (AST construction)
+├── ast_nodes.py    # AST node definitions
+│
+├── docs/
+│   ├── grammar_v0.1.txt   # Language grammar
+│   └── AST_v0.1.txt       # AST design reference
+│
+└── examples/
+    └── furina.txt         # Sample Furina program
+```
 
 
 ## Status
