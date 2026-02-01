@@ -1,0 +1,16 @@
+x = 7 + 5;
+Assign
+ ├── name: x
+ └── value:
+     └── Add
+         ├── Number(7)
+         └── Number(5)
+
+
+
+hydro(x+1);
+Print
+ └── value:
+     └── Add
+         ├── Variable(x)
+         └── Number(1)

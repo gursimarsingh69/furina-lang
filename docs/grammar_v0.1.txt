@@ -1,0 +1,12 @@
+program        → statement*
+
+statement      → assignment ';'
+               | print_stmt ';'
+
+assignment     → IDENT '=' expression
+
+print_stmt     → 'hydro' '(' expression ')'
+
+expression     → term ( '+' term )*
+term           → NUMBER
+               | IDENT
